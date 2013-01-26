@@ -1,0 +1,40 @@
+h3.blurb {
+font-family: 'Montserrat', sans-serif; 
+}
+
+h1, h2 {
+
+  font-family: 'Lato', sans-serif;
+  /* font-family: 'Nunito', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Montserrat Subrayada', sans-serif; */
+  font-weight: 700; 
+}
+
+
+#main-header {
+
+  min-height: 300px;
+}
+
+#main-header  h1 {
+     margin-top: 10px;
+     font-size: 450%;
+ }
+
+
+     #main-header  h2 {
+       font-size: 200%;
+     }
+
+     .hero-unit {
+
+       background-color: #ceff72;
+       margin-top:30px;
+     }
+
+     img.logo {
+       margin: 20px;
+     }
+
+
