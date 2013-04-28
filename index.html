@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href='http://fonts.googleapis.com/css?family=Doppio+One' rel='stylesheet' type='text/css'>
+
+    <style type='text/css'>
+      body {
+        text-align: right;
+        padding: 10%;
+        color: #FF6600;
+        color: #FF00CC;
+        color: #A5FF0A;
+        font-family: 'Doppio One', sans-serif;
+      }
+      a { text-decoration: none; }
+    </style>
+
+
     <title>Assemble Arizona</title>
     <meta name="keyword" content="Assemble Arizona, Assemble AZ, artists, hackers, code, programmers, Scottsdale, Phoenix, Tempe" >
    <meta name="description" content="Assemble Arizona: A collaboration of art and tech, poetry and science, for coders, creators, hackers, and heroes.">
   </head>
   <body>
   <h1>Assemble Arizona</h1>
-  <h2>Re-grouping for a future reboot.</h2>
-  <h3>Follow @assembleaz on Twitter for updates</h3>
-  </body>
+  <h2>Re-grouping. Rebooting.</h2>
+  <h3>Follow <a href='http://twitter.com/assembleaz'>@assembleaz</a> on Twitter for updates</h3>
+</body>
+    <script type='text/javascript'>
+     var c = ["#FF6600", "#FF00CC", "#A5FF0A", "#03E2FF"];
+     var colorIdx1 = Math.floor( Math.random() * c.length);
+     var  colorIdx2 = (colorIdx1 + 1) % c.length;
+     document.getElementsByTagName("body")[0].style.color = c[colorIdx1];
+     document.getElementsByTagName("a")[0].style.color = c[colorIdx2];
+  </script>
 </html>
